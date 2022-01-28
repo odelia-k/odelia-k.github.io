@@ -105,10 +105,11 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-theme: hueman
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment  git@github.com:odelia-k/odelia-k.github.io.git
 deploy:
   type: "git"
-  repo: https://github.com/odelia-k/odelia-k.github.io
+  repo:
+    github: git@github.com:odelia-k/odelia-k.github.io.git,master
