@@ -110,6 +110,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment  git@github.com:odelia-k/odelia-k.github.io.git
 deploy:
-  type: "git"
+  type: git
   repo:
     github: git@github.com:odelia-k/odelia-k.github.io.git,master
